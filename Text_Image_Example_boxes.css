@@ -1,0 +1,158 @@
+
+
+
+.b{
+    background-image:url("images2/bondy.jpg");
+    background-size:cover; /*try contain*/
+    background-repeat: no-repeat;
+    background-position: center 30%; /*try center center*/;
+    
+}
+.c{
+    background-image:url("images2/bondy.jpg");
+    background-size:cover; /*try contain*/
+    background-repeat: no-repeat;
+    background-position: center 30%; /*try center center*/;
+    text-align: right;
+    background-color:#fff;
+    background-blend-mode:    
+}
+.c h2,.c h3{
+    margin:0/*5px 15px 0 0*/;
+}
+.c h2{
+    color:#000;
+}
+.c h3{
+    color:#fff;
+}
+
+.d h1{
+    text-align: center;
+    font-size:2.7em;
+    
+}
+
+.f img{float:left;
+        margin: 0 10px 5px 0}
+
+.f p,.f h1{margin:2px;}
+
+
+
+
+@media only screen and (min-width:300px){
+header img{
+    height:100px;
+}    
+
+.a h1{
+    font-size:1.6em;
+    margin:3px;
+}
+.a p{
+    font-size:1.3em;
+    margin:5px;
+}
+
+.c h2{
+        font-size: 150%;
+    }
+    
+.e {
+        background-image:url(images2/farmer_small.jpg);
+        background-size:cover;
+    }
+    
+.f img{
+        width:150px;
+        height:auto;
+    }
+
+.f h1{
+        font-size:1.2em;
+    }
+
+.f p{
+        font-size:.8em;
+    }
+
+.f p.extra{
+        display:none;
+    }
+
+.f {
+        border:none
+    }
+}
+    
+@media only screen and (min-width:450px){
+    header img{
+    height:150px;
+}
+    
+ .a h1{
+    font-size:1.3em;
+     margin:3px;
+}
+
+.a p{
+    font-size:.9em;
+    margin:5px;
+} 
+
+.c h2{
+        font-size: 120%;
+    } 
+    
+.e {
+        background-image:url(images2/farmer_medium.jpg);
+        background-position:0px -110px;
+        
+    }
+
+.f img{
+        width:180px;
+        height:auto;
+    }
+
+.f p{
+        font-size:.7em;
+    }
+
+.f h1{
+        font-size:1.2em;
+    }
+
+.f p.extra{
+        display:inline;
+    }
+    
+}
+
+@media only screen and (min-width:1000px){
+    header img{
+    height:200px;
+}
+ 
+.c h2{
+        font-size: 150%;
+    }
+
+.e {
+    background-image:url(images2/farmer_large.jpg);
+        background-size:cover;
+        background-position:0px 0px;
+    }
+
+.f img{
+        width:300px;
+        height:auto;
+    }
+
+.f p{
+        font-size:.9em;
+    }
+    
+    
+}
